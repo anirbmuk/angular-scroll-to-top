@@ -1,0 +1,24 @@
+ul {
+  padding-top: 2px;
+  padding-bottom: 10px;
+}
+
+ul > li {
+  border: 1px solid rgba(18, 18, 18, 0.12);
+  margin: 2px 0;
+  border-radius: 5px;
+  min-height: 80px;
+}
+
+.result-header {
+  font-size: 16px;
+  font-weight: 700 !important;
+  display: block;
+}
+
+.result-sub-header {
+  font-size: 14px;
+  color: rgba(18, 18, 18, 0.75) !important;
+  display: block;
+  text-align: justify;
+}

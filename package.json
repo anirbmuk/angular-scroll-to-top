@@ -1,6 +1,21 @@
 {
   "name": "angular-scroll-to-top",
-  "version": "0.0.0",
+  "description": "Angular 12 application to demonstrate auto-scroll to top",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anirbmuk/angular-scroll-to-top.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anirbmuk/angular-scroll-to-top/issues"
+  },
+  "homepage": "https://theangularpath.anirbanblogs.com/2021/06/angular-scroll-to-top-implementation.html",
+  "keywords": [
+    "angular",
+    "scroll",
+    "rxjs"
+  ],
+  "author": "anirbmuk",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -11,13 +26,17 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~12.0.0",
+    "@angular/cdk": "^12.1.0",
     "@angular/common": "~12.0.0",
     "@angular/compiler": "~12.0.0",
     "@angular/core": "~12.0.0",
     "@angular/forms": "~12.0.0",
+    "@angular/material": "^12.1.0",
     "@angular/platform-browser": "~12.0.0",
     "@angular/platform-browser-dynamic": "~12.0.0",
     "@angular/router": "~12.0.0",
+    "@ngneat/until-destroy": "^8.0.4",
+    "bootstrap": "^5.0.2",
     "rxjs": "~6.6.0",
     "tslib": "^2.1.0",
     "zone.js": "~0.11.4"
