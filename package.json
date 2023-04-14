@@ -1,7 +1,7 @@
 {
   "name": "angular-scroll-to-top",
-  "description": "Angular 12 application to demonstrate auto-scroll to top",
-  "version": "1.0.0",
+  "description": "Angular application to demonstrate auto-scroll to top",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anirbmuk/angular-scroll-to-top.git"
@@ -35,7 +35,6 @@
     "@angular/platform-browser": "~12.0.0",
     "@angular/platform-browser-dynamic": "~12.0.0",
     "@angular/router": "~12.0.0",
-    "@ngneat/until-destroy": "^8.0.4",
     "bootstrap": "^5.0.2",
     "rxjs": "~6.6.0",
     "tslib": "^2.1.0",

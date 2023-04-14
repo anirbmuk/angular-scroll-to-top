@@ -1,18 +1,16 @@
-import { Component, Inject, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Inject, OnInit } from '@angular/core';
 import { DOCUMENT, ViewportScroller } from '@angular/common';
-
-import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 
 import { fromEvent, Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
 import { environment } from './../../environments/environment';
 
-@UntilDestroy()
 @Component({
   selector: 'app-list',
   templateUrl: './list.component.html',
-  styleUrls: ['./list.component.scss']
+  styleUrls: ['./list.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class ListComponent implements OnInit {
 
@@ -22,7 +20,6 @@ export class ListComponent implements OnInit {
     this.document,
     'scroll'
   ).pipe(
-    untilDestroyed(this),
     map(() => this.viewport.getScrollPosition()?.[1] > 0)
   );
 
