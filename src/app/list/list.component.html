@@ -1,12 +1,5 @@
-<ng-container *ngIf="showScroll$ | async">
-  <app-scroll (scrollToTop)="onScrollToTop()"></app-scroll>
-</ng-container>
 <ul class="list-group" role="list">
-  <li
-    class="list-group-item"
-    role="listitem"
-    *ngFor="let item of data; trackBy: trackByIdFn"
-  >
+  <li class="list-group-item" role="listitem" *ngFor="let item of data; trackBy: trackByIdFn">
     <div class="result-header">{{ item.id }}</div>
     <div class="result-sub-header">
       <span>{{ item.text }}</span>

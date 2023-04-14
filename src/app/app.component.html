@@ -1,3 +1,4 @@
 <div class="container-fluid">
+  <app-scroll *ngIf="showScroll$ | async" (scrollToTop)="onScrollToTop()"></app-scroll>
   <app-list></app-list>
 </div>
