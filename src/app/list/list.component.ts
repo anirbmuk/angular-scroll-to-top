@@ -1,8 +1,13 @@
-import { ChangeDetectionStrategy, Component, Inject, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 import { environment } from './../../environments/environment';
 
+const CORE_MODULES = [CommonModule];
+
 @Component({
+  standalone: true,
+  imports: [...CORE_MODULES],
   selector: 'app-list',
   templateUrl: './list.component.html',
   styleUrls: ['./list.component.scss'],
