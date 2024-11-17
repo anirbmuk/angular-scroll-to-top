@@ -2,7 +2,7 @@
 Angular application to demonstrate auto-scroll to top  
 
 # Related Blog   
-https://theangularpath.anirbanblogs.com/2021/06/angular-scroll-to-top-implementation.html   
+https://dev.to/anirbmuk/implement-scroll-to-top-in-angular-1e03   
 
 ### ! Updated to Angular 15 !
 > `**Standalone components**`, replacing `NgModule`  
